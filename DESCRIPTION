@@ -1,0 +1,17 @@
+Package: RETLflow
+Title: Integration of Rflow and RETL
+Version: 0.0.0.9001
+Authors@R: 
+    person(given = "Vaclav",
+           family = "Hausenblas",
+           role = c("aut", "cre"),
+           email = "vaclav.hausenblas@gmail.com")
+Description: RETLflow package integrates RETL and Rflow packages into a seamles ETL workflow in R.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    Rflow,
+    RETL,
+    DBI
+RoxygenNote: 6.1.1
