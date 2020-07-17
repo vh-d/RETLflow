@@ -2,6 +2,7 @@
 
 S3method(etl_read,node)
 S3method(etl_write,accdb_node)
+S3method(etl_write,csv_node)
 S3method(etl_write,db_node)
 S3method(etl_write,r_node)
 importFrom(RETL,etl_read)

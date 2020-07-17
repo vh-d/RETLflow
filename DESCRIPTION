@@ -1,6 +1,6 @@
 Package: RETLflow
 Title: Integration of Rflow and RETL
-Version: 0.0.0.9001
+Version: 0.0.0.9002
 Authors@R: 
     person(given = "Vaclav",
            family = "Hausenblas",
@@ -14,4 +14,6 @@ Imports:
     Rflow,
     RETL,
     DBI
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat
